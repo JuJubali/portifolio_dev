@@ -69,7 +69,7 @@ body{
 
     color: black;
     background-image: linear-gradient(to left, rgb(69, 56, 56), white);
-    
+    text-decoration: none;
 }
 
 .secao__ancoras-linkedin{
@@ -86,7 +86,7 @@ body{
 
     color: black;
     background-image: linear-gradient(to left, rgb(69, 56, 56), white);
-
+    text-decoration: none;
 }
 
 .secao__ancoras-instagram{
@@ -103,4 +103,5 @@ body{
 
     color: black;
     background-image: linear-gradient(to left, rgb(69, 56, 56), white);
+    text-decoration: none;
 }
