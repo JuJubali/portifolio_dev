@@ -1,0 +1,106 @@
+:root{
+    --cor-shadow: rgb(73, 58, 79);
+    --roxo-bg: rgb(69, 56, 56);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./assets/backgroundinho.png');
+}
+
+.secao{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;  
+    gap: 40px;
+
+    width: 25%;
+    height: 80%;
+
+    background-image: linear-gradient( 135deg, white, var(--roxo-bg));
+    border-radius: 10px;
+    border: outset var(--cor-shadow);
+    box-shadow: 3px -3px 6px var(--cor-shadow);
+}  
+
+.secao__nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 4em;
+
+    border-bottom: ridge 1px white;
+    border: conere
+}   
+
+.secao__ancoras{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin-bottom: 80px;
+
+   
+    gap: 60px;
+}
+
+.secao__ancoras-github{
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+
+    width: 16em;
+    height: 2.4em;
+
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    gap: 16px;
+
+    color: black;
+    background-image: linear-gradient(to left, rgb(69, 56, 56), white);
+    
+}
+
+.secao__ancoras-linkedin{
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+
+    width: 16em;
+    height: 2.4em;
+
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    gap: 16px;
+
+    color: black;
+    background-image: linear-gradient(to left, rgb(69, 56, 56), white);
+
+}
+
+.secao__ancoras-instagram{
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+
+    width: 16em;
+    height: 2.4em;
+
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    gap: 16px;
+
+    color: black;
+    background-image: linear-gradient(to left, rgb(69, 56, 56), white);
+}
